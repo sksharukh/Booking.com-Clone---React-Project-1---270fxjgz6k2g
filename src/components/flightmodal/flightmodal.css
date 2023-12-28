@@ -1,0 +1,96 @@
+
+.singleflight-container{
+    max-width: 1024px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.flightdetails-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight-header{
+    padding: 4px;
+    margin-left: 8px;
+    padding-top: 8px;
+}
+
+.direct{
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: -8px;
+    
+}
+
+.flightdetails-container{
+    margin-top: 20px;
+    margin-left: 12px;
+    font-family: sans-serif;
+}
+
+.source-time{
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.source-city{
+    margin-top: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.arrival-time{
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.ticketprice{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price{
+    margin-left: 8px;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.select-btn{
+    background-color: #0896ff;
+    border: none;
+    color: white;
+    padding: 4px;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+    padding: 4px;
+    margin: 8px;
+    margin-right: 12px;
+    cursor: pointer;
+    &:hover{
+        background-color: #003B95;
+    }
+}
+.flight-name{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 16px;
+}
+
+.flightid{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.availabletickets{
+    font-size: 12px;
+}
+
+.flight-duration{
+    font-size: 10px;
+}

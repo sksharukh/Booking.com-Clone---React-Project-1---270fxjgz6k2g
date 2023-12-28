@@ -1,0 +1,110 @@
+body {
+  /* background-color: #003B95; */
+}
+
+#checkOut {
+  background-color: #b3daff;
+  margin: 3% 15% 3% 15%;
+  border: 1px solid #000;
+  padding: 2%;
+  box-shadow: 5px 10px 20px;
+  overflow: hidden;
+}
+
+h1.checkout-para {
+  font-family: "IM Fell French Canon SC", serif;
+  text-align: center;
+  padding-bottom: 1%;
+}
+h4.payment-para {
+  font-family: "IM Fell French Canon SC", serif;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  /* gap: -100px; */
+}
+
+.form-control {
+  border: none;
+  width: 320px;
+  height: 28px;
+}
+#endDate {
+  width: 50px;
+  margin-top: 6px;
+  margin-left: 4px;
+  height: 36px;
+}
+
+#cVV {
+  width: 50px;
+  margin-left: 4px;
+}
+button {
+  float: right;
+  /* font-family: "Josefin Sans", sans-serif; */
+}
+
+.btn-primary {
+  width: 120px;
+  height: 40px;
+  font-size: medium;
+  /* font-weight: bold; */
+  color: white;
+  background-color: #1276e6;
+  border: none;
+  &:hover {
+    cursor: pointer;
+    background-color: #003b95;
+  }
+}
+
+form {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.invisible{
+    visibility: hidden;
+}
+.exp-date{
+  width: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #checkOut {
+    display: flex;
+    background-color: #b3daff;
+    border: 1px solid #000;
+    box-shadow: 5px 10px 20px;
+    margin: 3% 15%;
+    /* overflow: hidden; */
+    padding: 2%;
+    height: auto;
+    flex-direction: column;
+}
+.form{
+  display: flex;
+    flex-direction: columtn;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-start;
+}
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+.form-control {
+  border: none;
+  height: 28px;
+  width: 100px;
+}
+}

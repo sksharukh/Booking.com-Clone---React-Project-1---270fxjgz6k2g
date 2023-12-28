@@ -1,0 +1,46 @@
+.featured {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+  flex: 1;
+}
+
+.featuredItem{
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+}
+
+.featuredImg {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.featuredTitle{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+    .featured {
+        flex-direction: column;
+    }
+    .pList {
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    
+}

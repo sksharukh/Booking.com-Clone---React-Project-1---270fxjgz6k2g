@@ -1,0 +1,107 @@
+.listWrapper{
+    width: 100%;
+    max-width: 1128px;
+    display: flex;
+    gap: 20px;
+}
+
+.listSearch{
+    flex: 1;
+    background-color: #FEBB02;
+    padding: 10px;
+    position: sticky;
+    top: 80px;
+    margin-top: 40px;
+    margin-left: 110px;
+    font-family: sans-serif;
+    height: max-content;
+}
+
+.lsTitle{
+    font-size: 16px;
+    color: #1A1A1A;
+    margin-bottom: 10px;
+
+}
+
+.lsItem{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 12px;
+    
+}
+
+.lsItem>label{
+    margin-left: 6px;
+    
+}
+.lsItem >input{
+   height: 20px;
+   width: 220px;
+   border: none;
+   padding: 5px;
+    
+}
+
+.lsItem >span{
+    height: 20px;
+    width: 220px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+     
+ }
+ .lsItem .option-details{
+    margin-top: 20px;
+ }
+
+.listResult{
+    margin-top: 40px;
+    width: 800px;
+    flex: 3;
+}
+
+.search{
+display: flex;
+flex-direction: column;
+}
+
+.search-btn{
+    margin-top: 20px;
+    margin-left: 4px;
+    width: 228px;
+    height: 40px;
+    background-color: #006CE4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn:hover{
+   background-color: #003B95;
+}
+
+@media screen and (max-width: 600px) {
+    .listSearch{
+        display: none;
+    }
+    .searchItem {
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+    }
+}
+
+
+

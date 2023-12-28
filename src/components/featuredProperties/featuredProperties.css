@@ -1,0 +1,51 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.fpImg{
+    width: 100%;
+    max-width: 1024px;
+    width: 248px;
+    height: 240px;
+    border-radius: 15px;
+}
+
+.fpName{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+}
+
+.fbAdd{
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.fpRating>button{
+    background-color: #003B95;
+    border: none;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .fp {
+        width: 80%;
+        max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+}
